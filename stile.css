@@ -1,0 +1,56 @@
+*{
+	margin: 0p;
+	padding: 0;
+	border: 0;
+	}
+	.container {
+	max-width: 1200px;
+	margin:0 auto;
+}
+.header {
+	min-height: 120px;
+	background: #fff;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+}
+.h-logo .logo{
+	display: block;
+}
+.h-logo{display: inline-block;
+		width: 40%;
+		vertical-align: middle;
+}
+.h-info{
+	font-size: 18px;
+	display: inline-block;
+	width: 59%;
+	vertical-align: middle;
+}
+.h-info .h-info-label{
+	color:#9e9faf;
+	margin: 4px; 
+}
+.h-info .h-info-content{
+	color:#15285a; 
+}
+.h-info .h-addr{
+	float: left;
+	margin-right: 105px; 
+}
+.h-info .h-phone{
+	float: left;
+	min-width: 180px;
+}
+
+.h-phone .h-info-label,
+.h-phone .h-info-content{
+	display: inline-block;
+	
+	vertical-align: middle;
+}
+.h-phone .h-info-label{
+	min-width: 50px;
+}
+	/*
+	*/
